@@ -64,7 +64,7 @@ async def start(b, m):
             parse_mode="HTML",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton(' 👨‍💻 Owner 👨‍💻 ', url=f"https://t.me/{Var.OWNER_USERNAME}"),
-                                                                                       InlineKeyboardButton('❤️ Follow Me ❤️, url='https://github.com/EverythingSuckz') ] ]  ) )
+                                                                                       InlineKeyboardButton('❤️ Follow Me ❤️', url='https://github.com/EverythingSuckz') ] ]  ) )
                                                                                        
                                                                                        
                                                                             
