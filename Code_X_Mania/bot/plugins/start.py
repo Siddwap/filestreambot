@@ -131,7 +131,7 @@ async def start(b, m):
 <i><u> ☀️ 𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 ☀️</u></i>\n
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ :</b> <i>`{}`</i>\n
 <b>🚸 Nᴏᴛᴇ : Lɪɴᴋ ᴇxᴘɪʀᴇᴅ ɪɴ 24 ʜᴏᴜʀꜱ</b>\n
-<i>🍃 Bᴏᴛ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ :</i> <b>~@MrVishal_2k2</b>"""
+<i>🍃 Bᴏᴛ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ :</i> <b>~@EverythingSuckz</b>"""
 
         await m.reply_text(
             text=msg_text.format(file_name),
@@ -192,8 +192,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("🏵 DEV", url="https://github.com/Mrvishal2k2")],
-                [InlineKeyboardButton("🍺 FOLLOW", url="https://github.com/Mrvishal2k2")]
+                [InlineKeyboardButton("🏵 DEVELOPER ", url="https://github.com/EverythingSuckz")],
+                [InlineKeyboardButton("🍺 FOLLOW ME ", url="https://github.com/EverythingSuckz")]
             ]
         )
     )
