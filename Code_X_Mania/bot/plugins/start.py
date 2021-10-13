@@ -128,25 +128,21 @@ async def start(b, m):
         online_link = Var.URL + 'download/' + str(log_msg.message_id)
 
         msg_text ="""
-<i><u>𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u></i>
+<i><u>     𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u></i>
 
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ :</b> <i>{}</i>
-
-<b>📦 Fɪʟᴇ ꜱɪᴢᴇ :</b> <i>{}</i>
-
-<b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>
-
-<b> WATCH  :</b> <i>{}</i>
+<b>📦 Fɪʟᴇ ꜱɪᴢᴇ :</b> <i>`{}`</i>
 
 <b>🚸 Nᴏᴛᴇ : LINK WON'T EXPIRE TILL I DELETE</b>
 
-<i>© @AdarshGoelo5 </i>"""
+</i><b>🔞 Pʀᴏɴ ᴄᴏɴᴛᴇɴᴛꜱ ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ ʏᴏᴜ.</b>
+
+<i><b>🍃 Bᴏᴛ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ :</b>@AbirHasan2005</i>"""
 
         await m.reply_text(
-            text=msg_text.format(file_name, file_size, online_link, stream_link),
+            text=msg_text.format(file_name),
             parse_mode="HTML",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("STREAM", url=stream_link), #Stream Link
-                                                InlineKeyboardButton('Dᴏᴡɴʟᴏᴀᴅ📥', url=online_link)]]) #Download Link
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🎥 𝗦𝘁𝗿𝗲𝗮𝗺 𝗡𝗼𝘄 🎥", url=stream_link), #Stream Link
+                                                InlineKeyboardButton('📥 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗡𝗼𝘄 📥', url=online_link)]]) #Download Link
         )
 
 
